@@ -13,6 +13,7 @@
           :type="type === 'number' ? 'tel' : type"
           :pattern="type === 'number' ? '[0-9]' : null"
           :autoFocus="autoFocus && !loading && index === autoFocusIndex"
+          :autocomplete="one-time-code"
           :style="{
             width: `${fieldWidth}px`,
             height: `${fieldHeight}px`
