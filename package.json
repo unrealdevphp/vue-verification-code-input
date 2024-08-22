@@ -1,10 +1,10 @@
 {
   "name": "vue-verification-code-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🎉A verification code input",
-  "author": "suweya",
+  "author": "unrealdevphp",
   "license": "MIT",
-  "repository": "https://github.com/suweya/vue-verification-code-input",
+  "repository": "https://github.com/unrealdevphp/vue-verification-code-input",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
