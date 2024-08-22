@@ -10,7 +10,7 @@
     <div class="react-code-input">
       <template v-for="(v, index) in values">
         <input
-          :type="type === 'number' ? 'tel' : type"
+          :type="type === 'number' ? 'number' : type"
           :pattern="type === 'number' ? '[0-9]' : null"
           :autoFocus="autoFocus && !loading && index === autoFocusIndex"
           :autocomplete="one-time-code"
